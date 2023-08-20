@@ -42,6 +42,13 @@ ol li, ul li {
 ol > li, ul > li {
     padding-left: 30px;
 }
+a:active, a:hover {
+    outline-width: 0;
+}
+
+.link:hover, a:hover {
+    text-decoration: none;
+}
 
 
 .pageup {
