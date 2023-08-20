@@ -24,6 +24,7 @@
 }
 
 
+
 .top-header__links-block {
     display: inline-flex;
     -ms-flex-direction: column;
@@ -52,9 +53,6 @@
     top: 9px;
     left: 7px;
 }
-svg:not(:root) {
-    overflow: hidden;
-}
 
 
 .top-header .tel-block {
@@ -63,14 +61,15 @@ svg:not(:root) {
 .tel-block {
     display: inline-flex;
     flex-direction: column;
+    width: 140px;
 }
 .tel-link {
     font-weight: 600;
-    font-size: 9px;
+    font-size: 12px;
     line-height: 1.39;
     text-decoration: none;
 }
 .tel-block__city {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.37;
 }

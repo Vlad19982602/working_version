@@ -4,11 +4,11 @@ const scrolling = (upSelector) => {
 
 	window.addEventListener('scroll', () => {
 		if (document.documentElement.scrollTop > 1850) {
-			upElem.classList.add('animated', 'fadeInUp');
-			upElem.classList.remove('fadeOut');
+			upElem.classList.add('animate__animated', 'animate__fadeInUp');
+			upElem.classList.remove('animate__fadeOut');
 		} else {
-			upElem.classList.add('fadeOut');
-			upElem.classList.remove('fadeIn');
+			upElem.classList.add('animate__fadeOut');
+			upElem.classList.remove('animate__fadeIn');
 		}
 	});
 

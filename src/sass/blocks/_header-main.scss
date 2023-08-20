@@ -34,6 +34,9 @@
     margin-left: 180px;
 	transition: 0.3s;
 }
+.header-main-menu__contacts-link:first-child {
+    margin-left: 30px;
+}
 
 .header-main-menu__age-ico {
     margin-left: 15px;
@@ -49,4 +52,32 @@
     text-decoration: none;
     margin-left: 13px;
     font-size: 15px;
+}
+
+.header-mobile {
+    position: relative;
+    display: none;
+}
+
+.main-menu-extended1 {
+    position: absolute;
+    background: gray;
+    z-index: 1000;
+    width: 100%;
+    margin-bottom: 0;
+    height: 0;
+    pointer-events: none;
+    visibility: hidden;
+    overflow-y: hidden;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0, 1, .5, 1);
+}
+.main-menu-extended1 .container {
+    position: relative;
+    z-index: 1100;
+    display: flex;
+    width: 100%;
+    left: calc(50% - 720px);
+    margin: 0;
 }
