@@ -29,7 +29,7 @@
     display: inline-flex;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin-left: 80px;
+    margin-left: 20px;
 }
 .top-header__links-block a {
     display: inline-block;
@@ -37,6 +37,9 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 10px;
     line-height: 1.37;
+}
+.top-header__links-block a:last-child {
+    width: 222px;
 }
 
 

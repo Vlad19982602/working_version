@@ -1,0 +1,122 @@
+.footer {
+    position: relative;
+    padding: 55px 0 70px;
+    background: rgb(203, 202, 202);
+}
+
+.container {
+    max-width: 1244px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.footer__aside {
+    position: relative;
+    width: 25%;
+}
+.wide-menu-col {
+    padding-left: 10px;
+}
+.footer__logo {
+    position: absolute;
+    margin-top: -15%;
+    margin-left: -15%;
+}
+
+.footer__logo-text {
+    display: block;
+    padding-bottom: 20px;
+}
+.wide-menu-col__title {
+	text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    min-height: 44px;
+}
+.wide-menu-col__link {
+    text-decoration: none;
+}
+.footer .footer__documentation {
+    margin-top: 27px;
+}
+
+.wide-menu-col__list {
+    margin-left: 0;
+    font-size: 14px;
+    line-height: 1.36;
+}
+.wide-menu-col__list ul {
+    margin-left: 0;
+}
+.wide-menu-col__item {
+	display: block;
+    font-size: 12px;
+    line-height: 19px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding-left: 0;
+}
+.wide-menu-col__list ul > li {
+    padding-left: 0;
+    margin-top: 0;
+}
+.footer .wide-menu-col__item-address {
+    padding-bottom: 20px;
+}
+.contacts .wide-menu-col__item {
+    margin-bottom: 0;
+}
+
+.footer .btn_pay-footer-mob {
+    display: none;
+}
+
+.footer__midis, .footer__midis-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer .socials {
+    margin-top: 20px;
+	margin-left: 40px;
+    display: flex;
+}
+.footer .socials a {
+    margin-right: 10px;
+}
+.footer .socials img {
+    height: 32px;
+}
+
+.footer .footer__documentation ul {
+    margin-left: 0;
+}
+.footer .footer__documentation li {
+    margin-top: 10px;
+}
+.footer__documentation-link:hover {
+	text-decoration: none;
+}
+
+
+.footer__menu {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.footer__copyright {
+    padding-top: 15px;
+    font-size: 12px;
+    line-height: 1.33;
+    border-top: 2px solid #000;
+}
